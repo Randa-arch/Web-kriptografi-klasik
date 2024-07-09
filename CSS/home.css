@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: #badaf1;
+    /*background-image: url('background.png');*/
+  }
+  
+  .hr1{
+    height: 10px;
+    opacity: 1;
+    border: none;
+  }
+
+  .hr2 {
+    height: 7px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  a {
+    width: 50%;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  header {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(20, 29, 31);
+    text-align: center;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .conten {
+    width: 100%;
+    padding: 150px 0px 0px 0px;
+
+  }
+  .contens{
+    width: 45%;
+    text-align: center;
+    background-color: rgb(20, 29, 31);
+    color:azure;
+    float: left;
+    padding: 30px;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0px 25px;
+  }
+
+  .isi{
+    font-size: large;
+    text-align: justify;
+  }
+  
+  .header-conten{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1{
+    color:azure;
+    margin-bottom: 30px;
+  }
+
+  .dropdown-menu{
+    background-color: rgb(22, 21, 21);
+  }
+
+  .dropdown-item{
+    color: aliceblue;
+    font-size: 30px;
+  }
+
+  .btn{
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.9;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
+  footer{
+    width: 100%;
+    margin-top: 450px;
+    height: 120px;
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  footer p{
+    color: #b3aeb5;
+    font-size: 15px;
+  }
+
+  footer img {
+    width: 125px;
+  }
+
+@media all and (max-width: 1000px) {
+    .contens{
+      width: 100%;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .contens h2 {
+      font-size: 30px;
+    }
+    footer{
+      text-align: center;
+      margin-top: 450px;
+    }
+    .btn{
+      width: 100%;
+    }
+    .conten{
+      margin-left: -10px;
+    }
+  }
+  
+@media all and (max-width: 670px) {
+    .contens{
+      width: 100%;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .contens h2 {
+      font-size: 30px;
+    }
+
+    .btn {
+      width: 160px;
+    }
+    
+    .isi {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    footer{
+      text-align: center;
+      margin-top: 450px;
+    }
+    .conten{
+      margin-left: -10px;
+    }
+  }

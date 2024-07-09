@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: #badaf1;
+    /*background-image: url('background.png');*/
+  }
+  
+  a {
+    width: 50%;
+    text-align: center;
+  }
+
+  header {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(20, 29, 31);
+    text-align: center;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .deskripsi{
+    padding-bottom: 10px;
+    padding-top: 130px;
+  }
+  
+  .hr1{
+    height: 10px;
+    opacity: 1;
+    border: none;
+  }
+
+  .conten-top p{
+    text-align: justify;
+    font-size: 20px;
+  }
+  .conten-top{
+    padding: 30px;
+    background-color: rgb(20, 29, 31) ;
+    color:antiquewhite;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1{
+    text-align: center;
+  }
+  .h11{
+    color: white;
+  }
+
+  .conten-top hr{
+    height: 7px;
+    border-radius: 5px;
+  }
+
+  .plainteks{
+    color: white;
+  }
+  .key {
+    color: white;
+  }
+
+  .contens {
+    width: 100%;
+    background-color: rgb(20, 29, 31) ;
+    padding: 30px;
+    float: left;
+    border-radius: 6px;
+  }
+
+  .contens h2{
+    text-align: center;
+    color: antiquewhite;
+    font-size: x-large;
+  }
+
+  .contens hr{
+    height: 7px;
+    border-radius: 5px;
+  }
+
+  label{
+    color: antiquewhite;
+  }
+
+  footer{
+    width: 100%;
+    margin-top: 1500px;
+    height: 120px;
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  footer p{
+    color: #b3aeb5;
+    font-size: 15px;
+  }
+
+  footer img {
+    width: 125px;
+  }
+
+  
+  .btn {
+    width: 50%;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .conten{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .contens {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  .contens h2 {
+    font-size: 20px;
+  }
+  footer {
+    margin-top: 750px;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .conten {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .contens {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  
+  .contens h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  footer {
+    margin-top: 750px;
+  }
+}
